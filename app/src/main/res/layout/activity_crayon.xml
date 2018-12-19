@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrayonActivity"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Make your choice"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/alex_brush" />
+
+    <TextView
+        android:id="@+id/pen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="70dp"
+        android:text="Pen (1€/pcs)"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/pen"
+        android:layout_alignLeft="@+id/pen"
+        android:layout_marginTop="163dp"
+        android:text="Sheet (0.1€/pcs)"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/pencil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/pen"
+        android:layout_alignLeft="@+id/pen"
+        android:layout_marginBottom="230dp"
+        android:text="Pencil (0.5€/pcs)"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/eraser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/pen"
+        android:layout_alignLeft="@+id/pen"
+        android:layout_marginBottom="133dp"
+        android:text="Eraser (0.2€/pcs)"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/nb_pen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pen"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="86dp"
+        android:layout_marginRight="86dp"
+        android:text="0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/nb_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sheet"
+        android:layout_alignStart="@+id/nb_pen"
+        android:layout_alignLeft="@+id/nb_pen"
+        android:text="0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/nb_pencil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pencil"
+        android:layout_alignStart="@+id/nb_pen"
+        android:layout_alignLeft="@+id/nb_pen"
+        android:text="0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/nb_eraser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/eraser"
+        android:layout_alignStart="@+id/nb_pen"
+        android:layout_alignLeft="@+id/nb_pen"
+        android:text="0"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:background="#ae4f1d"
+        android:paddingBottom="20sp"
+        android:paddingLeft="40sp"
+        android:paddingRight="40sp"
+        android:paddingTop="20sp"
+        android:text="BUY"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/moins_pen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pen"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="114dp"
+        android:layout_marginRight="114dp"
+        android:text="-"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/plus_pen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pen"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:text="+"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/moins_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sheet"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="114dp"
+        android:layout_marginRight="114dp"
+        android:text="-"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/plus_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sheet"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:text="+"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/moins_pencil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pencil"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="114dp"
+        android:layout_marginRight="114dp"
+        android:text="-"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/plus_pencil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pencil"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:text="+"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/moins_eraser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/eraser"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="114dp"
+        android:layout_marginRight="114dp"
+        android:text="-"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/plus_eraser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/eraser"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:text="+"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buy"
+        android:layout_alignEnd="@+id/sheet"
+        android:layout_alignRight="@+id/sheet"
+        android:text="Total : 0 €"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorBackground">
+
+    <Button
+        android:id="@+id/activity_main_search"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:background="#ae4f1d"
+        android:text="SEARCH A DISTRIB'" />
+
+    <TextView
+        android:id="@+id/activity_main_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome to La Distrib'"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/alex_brush" />
+
+    <ListView
+        android:id="@+id/activity_main_devicesList"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/activity_main_welcome"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="17dp" />
+
+
+</RelativeLayout>
