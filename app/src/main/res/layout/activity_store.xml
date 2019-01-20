@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoreActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/store_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/store_text"
+        android:layout_toEndOf="@+id/store_text"
+        android:layout_toRightOf="@+id/store_text"
+        android:text="Balance:"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:background="#9B305C"
+        android:text="BUY"
+        android:textColor="#fff"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/store_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Store"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="40dp" />
+
+    <ListView
+        android:id="@+id/store_listView"
+        android:layout_width="331dp"
+        android:layout_height="256dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp" />
+
+    <TextView
+        android:id="@+id/total_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp"
+        android:text="Total : 0.00 €"
+        android:textColor="#fff"
+        android:textSize="40dp" />
+
+</RelativeLayout>

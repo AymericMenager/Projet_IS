@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "477951875346",
+    "firebase_url": "https://ladistribandroidapp.firebaseio.com",
+    "project_id": "ladistribandroidapp",
+    "storage_bucket": "ladistribandroidapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477951875346:android:7d7cd68c10b6285b",
+        "android_client_info": {
+          "package_name": "com.example.aymeric.ladistrib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477951875346-cigdqgknqbgmsi3se5h6bm3h77tkooub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aymeric.ladistrib",
+            "certificate_hash": "28f2f5b8a830234d98c75cdf9d7be050e795195a"
+          }
+        },
+        {
+          "client_id": "477951875346-143u7paj7nhvjr58q3ccckkbg7p57r9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvBfw7OJaBEUIVS7pf-6Iy2OXer51_7qE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477951875346-143u7paj7nhvjr58q3ccckkbg7p57r9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

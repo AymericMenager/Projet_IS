@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/activity_home_boxConnection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/boxconnection"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/activity_home_identifiant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/identifiants"
+        android:layout_centerInParent="true"/>
+
+    <EditText
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="245dp"
+        android:hint="Login"
+        android:textSize="15sp" />
+
+    <EditText
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="295dp"
+        android:hint="Password"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/connect_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp"
+        android:src="@drawable/buttonconnect" />
+
+</RelativeLayout>
